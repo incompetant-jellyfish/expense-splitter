@@ -53,6 +53,7 @@ A pays B ₹50
 A pays C ₹20  
 
 ---
+<img width="500" height="595" alt="image" src="https://github.com/user-attachments/assets/fe8ec279-e173-4c68-91ce-caaf52572bed" />
 
 ## Concepts Used
 
