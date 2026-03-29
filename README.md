@@ -34,10 +34,44 @@ The program then calculates the net balance for each person and uses a greedy ap
 
 ## How to Run
 
+## Requirements
+
+- Python 3 installed
+
+To check:
+python --version
+
+## Setup
+
+Download the project from GitHub and extract it.
+
+Or clone using:
+
+git clone https://github.com/incompetant-jellyfish/expense-splitter
+
+## Navigate to folder
+
+Open terminal and go to the project folder:
+
+cd expense-splitter
+
+## Then
+
 1. Open terminal in the project folder  
 2. Run the program: python src/main.py
 3. Enter the number of transactions  
 4. Enter each transaction in the required format  
+
+## Input Format
+
+Enter number of transactions
+
+Then enter each transaction as:
+
+Giver Receiver Amount
+
+Example:
+A B 100
 
 ---
 
