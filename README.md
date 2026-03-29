@@ -35,7 +35,7 @@ The program then calculates the net balance for each person and uses a greedy ap
 ## How to Run
 
 1. Open terminal in the project folder  
-2. Run the program:
+2. Run the program: python src/main.py
 3. Enter the number of transactions  
 4. Enter each transaction in the required format  
 
