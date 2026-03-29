@@ -36,7 +36,6 @@ def minimize_cash_flow(transactions):
     return result
 
 
-# ---------------- MAIN ----------------
 
 if __name__ == "__main__":
 
@@ -45,7 +44,6 @@ if __name__ == "__main__":
     print("Giver Receiver Amount")
     print("Example: A B 100  → means A gives ₹100 to B\n")
 
-    # number of transactions
     while True:
         try:
             n = int(input("Enter number of transactions: "))
@@ -58,30 +56,30 @@ if __name__ == "__main__":
 
     transactions = []
 
-    # input loop
+    
     for i in range(n):
         while True:
             entry = input(f"Transaction {i+1}: ").strip().split()
 
             if len(entry) != 3:
-                print("❌ Format: Name1 Name2 Amount (example: A B 100)\n")
+                print("Format: Name1 Name2 Amount (example: A B 100)\n")
                 continue
 
             giver, receiver, amount = entry
 
             # validate names
             if not giver.isalpha() or not receiver.isalpha():
-                print("❌ Names must contain only letters.\n")
+                print("Names must contain only letters.\n")
                 continue
 
             # validate amount
             try:
                 amount = int(amount)
                 if amount <= 0:
-                    print("❌ Amount must be positive.\n")
+                    print(" Amount must be positive.\n")
                     continue
             except:
-                print("❌ Amount must be a number.\n")
+                print(" Amount must be a number.\n")
                 continue
 
             transactions.append((giver, receiver, amount))
